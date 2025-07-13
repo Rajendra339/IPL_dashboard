@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>IPL STATS DASHBOARD</h1>
+    </header>
+
+    <main class="dashboard-container">
+
+        <section class="featured-team-card" id="kkr-card">
+            <div class="featured-header">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/1200px-Kolkata_Knight_Riders_Logo.svg.png" alt="KKR Logo">
+                <div class="team-info">
+                    <h2>FEATURED TEAM</h2>
+                    <h3>Kolkata Knight Riders</h3>
+                    <p>Champions of the 2024 Season</p>
+                </div>
+            </div>
+            <div class="featured-players">
+                <h4>KEY PLAYERS 2024</h4>
+                <ul>
+                    <li>Shreyas Iyer (C)</li>
+                    <li>Sunil Narine</li>
+                    <li>Andre Russell</li>
+                    <li>Varun Chakravarthy</li>
+                    <li>Venkatesh Iyer</li>
+                    <li>Mitchell Starc</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="top-performers-grid">
+            <div class="performer-card" id="orange-cap">
+                <h4>TOP RUN SCORERS</h4>
+                <ul class="player-list">
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwL0YI1ybqxSCRlpKEcPaZ6hjwHM14lgoqrGWrvb9hZjcyx9w8sToGgO1pB3MCyKB1CRlSMG6Y6WLNVcsCSumHWw" alt="Virat Kohli" class="top-player-img">
+                        <div class="player-details">Virat Kohli (RCB) <strong>741 Runs</strong></div>
+                    </li>
+                    <li>
+                        <img src="https://static.toiimg.com/photo/119128237.cms" alt="Riyan Parag" class="player-img-small">
+                        <div class="player-details">Riyan Parag (RR) <strong>573 Runs</strong></div>
+                    </li>
+                    <li>
+                        <img src="https://www.sunrisershyderabad.in/uploads/image/SRH-67e273c8b11655.04180031(pv0c5kb.png" alt="Travis Head" class="player-img-small">
+                        <div class="player-details">Travis Head (SRH) <strong>567 Runs</strong></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="performer-card" id="purple-cap">
+                <h4>TOP WICKET TAKERS</h4>
+                 <ul class="player-list">
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR33w5yswF3hNBPQ5eLzHN_O5S7xW4VEXgpH0Va6tR_ro6ur9_-IH2O3Pms3CySCrBYbZw&usqp=CAU" alt="Harshal Patel" class="top-player-img">
+                        <div class="player-details">Harshal Patel (PBKS) <strong>24 Wickets</strong></div>
+                    </li>
+                    <li>
+                        <img src="https://www.kkr.in/static-assets/images/players/67469.png?v=111.76" alt="Varun Chakravarthy" class="player-img-small">
+                        <div class="player-details">Varun Chakravarthy (KKR) <strong>21 Wickets</strong></div>
+                    </li>
+                    <li>
+                        <img src="https://assets.iplt20.com/ipl/IPLHeadshot2024/136.png" alt="Jasprit Bumrah" class="player-img-small">
+                        <div class="player-details">Jasprit Bumrah (MI) <strong>20 Wickets</strong></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="points-table-card">
+            <h4>IPL 2024 POINTS TABLE</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th colspan="2">Team</th>
+                        <th>Pld</th>
+                        <th>Won</th>
+                        <th>Lost</th>
+                        <th>Pts</th>
+                        <th>NRR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/1200px-Kolkata_Knight_Riders_Logo.svg.png" class="team-logo-table"></td>
+                        <td class="team-name"><a href="https://www.kkr.in/" target="_blank">Kolkata Knight Riders</a></td>
+                        <td>14</td><td>9</td><td>3</td><td>20</td><td>+1.428</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Sunrisers_Hyderabad_Logo.svg/1200px-Sunrisers_Hyderabad_Logo.svg.png" class="team-logo-table"></td>
+                        <td class="team-name"><a href="https://www.sunrisershyderabad.in/" target="_blank">Sunrisers Hyderabad</a></td>
+                        <td>14</td><td>8</td><td>5</td><td>17</td><td>+0.414</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/This_is_the_logo_for_Rajasthan_Royals%2C_a_cricket_team_playing_in_the_Indian_Premier_League_%28IPL%29.svg/800px-This_is_the_logo_for_Rajasthan_Royals%2C_a_cricket_team_playing_in_the_Indian_Premier_League_%28IPL%29.svg.png" class="team-logo-table"></td>
+                        <td class="team-name"><a href="https://www.rajasthanroyals.com/" target="_blank">Rajasthan Royals</a></td>
+                        <td>14</td><td>8</td><td>5</td><td>17</td><td>+0.273</td>
+                    </tr>
+                     <tr>
+                        <td>4</td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Royal_Challengers_Bengaluru_Logo.svg/1200px-Royal_Challengers_Bengaluru_Logo.svg.png" class="team-logo-table"></td>
+                        <td class="team-name"><a href="https://www.royalchallengers.com/" target="_blank">Royal Challengers Bengaluru</a></td>
+                        <td>14</td><td>7</td><td>7</td><td>14</td><td>+0.459</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Chennai_Super_Kings_Logo.svg/1200px-Chennai_Super_Kings_Logo.svg.png" class="team-logo-table"></td>
+                        <td class="team-name"><a href="https://www.chennaisuperkings.com/" target="_blank">Chennai Super Kings</a></td>
+                        <td>14</td><td>7</td><td>7</td><td>14</td><td>+0.392</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Delhi_Capitals.svg/800px-Delhi_Capitals.svg.png" class="team-logo-table"></td>
+                        <td class="team-name"><a href="https://www.delhicapitals.in/" target="_blank">Delhi Capitals</a></td>
+                        <td>14</td><td>7</td><td>7</td><td>14</td><td>-0.377</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Lucknow_Super_Giants_IPL_Logo.svg/640px-Lucknow_Super_Giants_IPL_Logo.svg.png" class="team-logo-table"></td>
+                        <td class="team-name"><a href="https://www.lucknowsupergiants.in/" target="_blank">Lucknow Super Giants</a></td>
+                        <td>14</td><td>7</td><td>7</td><td>14</td><td>-0.667</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Gujarat_Titans_Logo.svg/1200px-Gujarat_Titans_Logo.svg.png" class="team-logo-table"></td>
+                        <td class="team-name"><a href="https://www.gujarattitansipl.com/" target="_blank">Gujarat Titans</a></td>
+                        <td>14</td><td>5</td><td>7</td><td>12</td><td>-1.063</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Punjab_Kings_Logo.svg/1200px-Punjab_Kings_Logo.svg.png" class="team-logo-table"></td>
+                        <td class="team-name"><a href="https://www.punjabkingsipl.in/" target="_blank">Punjab Kings</a></td>
+                        <td>14</td><td>5</td><td>9</td><td>10</td><td>-0.353</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Mumbai_Indians_Logo.svg/1200px-Mumbai_Indians_Logo.svg.png" class="team-logo-table"></td>
+                        <td class="team-name"><a href="https://www.mumbaiindians.com/" target="_blank">Mumbai Indians</a></td>
+                        <td>14</td><td>4</td><td>10</td><td>8</td><td>-0.318</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+</body>
+</html>
